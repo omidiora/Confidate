@@ -1,0 +1,78 @@
+import {StyleSheet} from 'react-native';
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#000000',
+  },
+  header: {
+    backgroundColor: '#4591ed',
+    color: 'white',
+    paddingHorizontal: 15,
+    paddingVertical: 15,
+    // fontSize: 20,
+  },
+  searchBar: {
+    backgroundColor: '#f0eded',
+    paddingHorizontal: 30,
+  },
+  contactsList: {
+    flexDirection: 'row',
+    borderBottomColor: 'grey',
+    borderBottomWidth: 1,
+    marginHorizontal: '2%',
+  },
+  contactListitem: {
+    marginHorizontal: '3%',
+    marginVertical: '3%',
+    marginLeft: '5%',
+  },
+  contactImage: {
+    width: 50,
+    height: 50,
+    borderRadius: 50,
+    borderWidth: 1,
+    borderColor: 'grey',
+  },
+  contactsNumber: {
+    color: '#ffff',
+    marginVertical: '4%',
+    fontSize: 22,
+    paddingHorizontal: '10%',
+    marginHorizontal: '2%',
+    textAlign: 'left',
+  },
+  containerItem: {
+    color: 'grey',
+    borderWidth: 1,
+    borderColor: 'grey',
+    borderRadius: 10,
+    backgroundColor: '#0000',
+    height: 50,
+    textAlign: 'center',
+    marginTop: '5%',
+    marginHorizontal: '6%',
+  },
+  searcIcon: {
+    alignSelf: 'flex-end',
+    textAlignVertical: 'top',
+    position: 'absolute',
+    top: '30%',
+    right: '10%',
+  },
+  refresBtn: {
+    width: '100%',
+    fontSize: 12,
+    fontFamily: 'Rubika-Medium',
+    textTransform: 'capitalize',
+    backgroundColor: '#EA1B91',
+    borderRadius: 6,
+  },
+  btnText: {
+    color: '#ffff',
+    fontSize: 18,
+    textAlign: 'center',
+    paddingHorizontal: '2%',
+    paddingVertical: '6%',
+  },
+  btnContainer: {marginVertical: '5.6%', width: '21%', alignSelf: 'flex-end'},
+});

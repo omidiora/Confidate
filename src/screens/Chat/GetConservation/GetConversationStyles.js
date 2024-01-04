@@ -1,0 +1,70 @@
+import {StyleSheet} from 'react-native';
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#000000',
+    // height:
+  },
+  listContacts: {
+    color: '#ffff',
+    marginVertical: '2%',
+    fontSize: 22,
+    borderBottomColor: 'grey',
+    borderBottomWidth: 1,
+    paddingVertical: '1%',
+    paddingBottom: '4%',
+    paddingHorizontal: '10%',
+    marginHorizontal: '2%',
+    textAlign: 'left',
+    fontFamily: 'Rubkia',
+  },
+  listOfImages: {
+    width: 50,
+    height: 50,
+    borderRadius: 50,
+    borderWidth: 1,
+    borderColor: 'grey',
+  },
+  listOfNames: {
+    color: '#ffff',
+    marginVertical: '4%',
+    fontSize: 17,
+    fontFamily: 'Rubkia',
+    // width:"95%"
+    flexWrap: 'wrap',
+  },
+  containerChild: {
+    color: 'grey',
+    borderWidth: 1,
+    borderColor: 'grey',
+    borderRadius: 10,
+    backgroundColor: '#0000',
+    height: 50,
+    marginTop: '5%',
+    marginHorizontal: '6%',
+    // paddingRight: '6%',
+    textAlign: 'center',
+  },
+  searchIcon: {
+    alignSelf: 'flex-end',
+    textAlignVertical: 'top',
+    position: 'absolute',
+    top: '30%',
+    right: '10%',
+  },
+  resetBtn: {
+    width: '100%',
+    fontSize: 12,
+    fontFamily: 'Rubika-Medium',
+    textTransform: 'capitalize',
+    backgroundColor: '#ea1b91',
+    borderRadius: 6,
+  },
+  btnText: {
+    color: '#ffff',
+    fontSize: 18,
+    textAlign: 'center',
+    paddingHorizontal: '2%',
+    paddingVertical: '6%',
+  },
+});
